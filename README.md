@@ -5,8 +5,7 @@ Analysis on current US politics and predicting the next US president using Twitt
 
 This analysis helps to predict our future president and can be extended to other political elections prediction systems. These trends would focus on the opinion of people and concern towards their future president, which brings out major problems and issues that people have been facing in a country. Big Data and Machine Learning technologies can be used in real time to help in making decisions based on people’s opinion.
 
-Dependencies:
-=============
+### Dependencies:
 0. Apache Spark Cluster setup in AWS
 ```Use the script file spark-ec2.sh in spark disctribution```
 0. NLTK
@@ -15,8 +14,7 @@ Dependencies:
 ```sudo pip install -U numpy```
 
 
-Usage:
-======
+### Usage:
 * classifier.py will do sentimental analysis on tweets and classifier tweet based o it's polairty.
 The classifer was trained with data srouce(0.8 million tweets) taken from Standford University.
 
@@ -26,4 +24,27 @@ The classifer was trained with data srouce(0.8 million tweets) taken from Standf
   
   ```python streaming.py```
 
+
+### Downloading More Data
+You can also download more data with ```streaming.py```, which streams data from the search criteria to
+standard out.
+Run like
+```python streaming.py```
+
+
+*HOWEVER* The downloader requires you to have Twitter API keys to stream the data, as they are private I am not posting in here. Creating new credentials will take no more than 3 mins.
+
+1. Register your Twitter account with http://dev.twitter.com
+2. Log in to dev.twitter.com and go to "My applications" (hover over your avatar)
+3. Create a new app (gt-big-data, for instance)
+4. Create access tokens in the new app.
+
+Replace tags in `streaming.py`
+
+```
+access_token = "<access_token>"
+access_token_secret = "<access_token_secret>"
+consumer_key = "<consumer_key>"
+consumer_secret = "<consumer_secret>"
+```
 
