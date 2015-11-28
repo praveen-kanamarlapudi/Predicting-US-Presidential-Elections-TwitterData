@@ -28,7 +28,7 @@ The classifer was trained with data srouce(0.8 million tweets) taken from Standf
 
 Accuracy of Sentimental Analysis:
 ======
-* Accuracy: 0.777321281841
+* ___Accuracy: 0.777321281841___
 * F-measure [negative]: 0.768573868488
 * F-measure [positive]: 0.785431512272
 * Precision [negative]: 0.783972125436
