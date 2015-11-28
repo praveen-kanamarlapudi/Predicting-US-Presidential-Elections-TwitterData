@@ -13,19 +13,7 @@ This analysis helps to predict our future president and can be extended to other
 0. Numpy
 ```sudo pip install -U numpy```
 
-
-### Usage:
-* classifier.py will do sentimental analysis on tweets and classifier tweet based o it's polairty.
-The classifer was trained with data srouce(0.8 million tweets) taken from Standford University.
-
-  ```python classfier.py```
-
-* Data was collected from twitter streaming api
-  
-  ```python streaming.py```
-
-
-### Downloading More Data
+### Downloading Twitter Data
 You can also download more data with ```streaming.py```, which streams data from the search criteria to
 standard out.
 Run like
@@ -47,4 +35,15 @@ access_token_secret = "<access_token_secret>"
 consumer_key = "<consumer_key>"
 consumer_secret = "<consumer_secret>"
 ```
+
+### Usage:
+* classifier.py will do sentimental analysis on tweets and classifier tweet based o it's polairty.
+The classifer was trained with data srouce(0.8 million tweets) taken from Standford University.
+
+  ```python classfier.py```
+
+* Data was collected from twitter streaming api
+  
+  ```python streaming.py```
+
 
