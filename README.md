@@ -28,11 +28,11 @@ The classifer was trained with data srouce(0.8 million tweets) taken from Standf
 
 Accuracy of Sentimental Analysis:
 ======
-* ___Accuracy: 0.777321281841___
-* F-measure [negative]: 0.768573868488
-* F-measure [positive]: 0.785431512272
-* Precision [negative]: 0.783972125436
-* Precision [positive]: 0.771384136858
-* Recall [negative]: 0.753768844221
-* Recall [positive]: 0.8
+* Accuracy: ___0.777321281841___
+* F-measure [negative]: ___0.768573868488___
+* F-measure [positive]: ___0.785431512272___
+* Precision [negative]: ___0.783972125436___
+* Precision [positive]: ___0.771384136858___
+* Recall [negative]: ___0.753768844221___
+* Recall [positive]: ___0.8___
 
