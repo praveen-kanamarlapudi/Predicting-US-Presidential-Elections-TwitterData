@@ -13,7 +13,7 @@ Installation:
 ```sudo pip install -U nltk```
 0. Numpy
 ```sudo pip install -U numpy```
-0. 
+
 
 Usage:
 ======
@@ -23,4 +23,5 @@ The classifer was trained with data srouce(0.8 million tweets) taken from Standf
   ```python classfier.py```
 
 * Data was collected from twitter streaming api
+  
   ```python streaming.py```
