@@ -19,7 +19,8 @@ Usage:
 ======
 * classifier.py will do sentimental analysis on tweets and classifier tweet based o it's polairty.
 The classifer was trained with data srouce(0.8 million tweets) taken from Standford University.
-```python classfier.py```
+
+  ```python classfier.py```
 
 * Data was collected from twitter streaming api
-```python streaming.py```
+  ```python streaming.py```
