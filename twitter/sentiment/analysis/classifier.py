@@ -16,8 +16,8 @@ def read_tweets(file, clas):
   line = f.readline()
   while line!='':
     words.append((tokenize_sentance(line),clas))
-    line = f.readline()
-  print 'print reading dat from file completed'
+    line = f.readline().decode(errors="ignore")
+  print 'print reading data from file completed'
   return words
 
 
@@ -31,8 +31,8 @@ def tokenize_sentance(line):
   return words
 
 def train():
-  positive_tweets = read_tweets('/root/295/new/positive.txt', 'positive')
-  negative_tweets = read_tweets('/root/295/new/negative.txt', 'negative')
+  positive_tweets = read_tweets('positive.txt', 'positive')
+  negative_tweets = read_tweets('negative.txt', 'negative')
   print len(positive_tweets)
   print len(negative_tweets)
 
