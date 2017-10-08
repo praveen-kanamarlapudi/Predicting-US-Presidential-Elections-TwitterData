@@ -7,7 +7,7 @@ This analysis helps to predict our future president and can be extended to other
 
 ### Dependencies:
 0. Apache Spark Cluster setup in AWS
-```Use the script file spark-ec2.sh in spark disctribution```
+```Use the script file spark-ec2.sh in spark distribution```
 0. NLTK
 ```sudo pip install -U nltk```
 0. Numpy
@@ -37,10 +37,10 @@ consumer_secret = "<consumer_secret>"
 ```
 
 ### Usage:
-* classifier.py will do sentimental analysis on tweets and classifier tweet based o it's polairty.
-The classifer was trained with data srouce(0.8 million tweets) taken from Standford University.
+* classifier.py will do sentimental analysis on tweets and classifier tweet based on it's polarity.
+The classifer was trained with data source(0.8 million tweets) taken from Standford University.
 
-  ```python classfier.py```
+  ```python classifier.py```
 
 * Data was collected from twitter streaming api
   
